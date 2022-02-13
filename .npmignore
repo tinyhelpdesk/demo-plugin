@@ -1,0 +1,13 @@
+dist/
+.editorconfig
+.vscode/
+yarn-error.log
+yarn.lock
+tslint.json
+.eslintignore
+.eslintrc
+.release-it.yml
+.env
+test/
+jest.config.js
+coverage/

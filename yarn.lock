@@ -868,9 +868,10 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@tinyhelpdesk/base-plugin@link:../base-plugin":
-  version "0.0.0"
-  uid ""
+"@tinyhelpdesk/base-plugin@0.0.2":
+  version "0.0.2"
+  resolved "https://npm.as01.moonliightz.de/@tinyhelpdesk%2fbase-plugin/-/base-plugin-0.0.2.tgz#df4a9ed1e1e03d84e24c412ba2e11130983f54bd"
+  integrity sha512-fLyO8bGX05aYGmrrm6275sJCK4HlpnN9W1Rr7xA8amiP7Gceandwfy1O5utMBwzzrAjqfRYDMFR7asAqr3sECw==
 
 "@tootallnate/once@1":
   version "1.1.2"

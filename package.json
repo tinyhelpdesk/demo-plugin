@@ -1,13 +1,12 @@
 {
   "name": "@tinyhelpdesk/demo-plugin",
-  "version": "0.0.4",
   "description": "Demo plugin for the TinyHelpdesk",
+  "version": "0.0.4",
   "author": {
     "name": "Björn Torben Hahn",
     "email": "info@bjoerntorben.de"
   },
   "license": "MIT",
-  "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
@@ -30,7 +29,7 @@
     "test:watch:verbose": "jest --watch --verbose"
   },
   "dependencies": {
-    "@tinyhelpdesk/base-plugin": "link:../base-plugin"
+    "@tinyhelpdesk/base-plugin": "0.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "16.1.0",
