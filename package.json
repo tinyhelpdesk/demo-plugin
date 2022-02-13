@@ -3,8 +3,8 @@
   "version": "0.0.3",
   "description": "Demo plugin for the TinyHelpdesk",
   "author": {
-    "author": "Björn Torben Hahn",
-    "name": "<info@bjoerntorben.de>"
+    "name": "Björn Torben Hahn",
+    "email": "info@bjoerntorben.de"
   },
   "license": "MIT",
   "private": false,
