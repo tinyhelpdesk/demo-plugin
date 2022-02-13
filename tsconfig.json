@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    // "module": "esnext",
     "module": "commonjs",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -16,7 +15,7 @@
     "baseUrl": "src"
     // "paths": {}
   },
-  "include": ["src/**/*", "custom.d.ts"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist", "**/*.spec.ts", "**/*.test.ts"],
   "ts-node": {
     "files": true

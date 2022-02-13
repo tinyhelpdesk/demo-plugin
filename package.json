@@ -1,7 +1,7 @@
 {
-  "name": "demo-plugin",
+  "name": "@tinyhelpdesk/demo-plugin",
   "version": "0.0.1",
-  "description": "TinyHelpdesk Extensions Interface",
+  "description": "Demo plugin for the TinyHelpdesk",
   "author": {
     "author": "Björn Torben Hahn",
     "name": "<info@bjoerntorben.de>"
@@ -9,24 +9,51 @@
   "license": "MIT",
   "private": true,
   "main": "dist/index.js",
-  "repository": "git@github.com:tinyhelpdesk/demo-plugin.git",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:tinyhelpdesk/demo-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tinyhelpdesk/demo-plugin/issues"
+  },
+  "homepage": "https://github.com/tinyhelpdesk/demo-plugin#readme",
   "scripts": {
-    "dev": "",
     "build": "npx tsc",
+    "dev": "node -r ts-node/register ./src/index.ts",
     "lint": "eslint . --ext '.js,.ts,.tsx'",
-    "release": "release-it"
+    "release": "release-it",
+    "test": "jest",
+    "test:verbose": "jest --verbose",
+    "test:coverage": "jest --coverage --verbose",
+    "test:watch": "jest --watch",
+    "test:watch:verbose": "jest --watch --verbose"
   },
   "dependencies": {
     "@tinyhelpdesk/base-plugin": "link:../base-plugin"
   },
   "devDependencies": {
+    "@commitlint/cli": "16.1.0",
+    "@commitlint/config-conventional": "16.0.0",
+    "@release-it/conventional-changelog": "4.1.0",
+    "@types/jest": "27.4.0",
+    "@types/node": "17.0.17",
     "@typescript-eslint/eslint-plugin": "5.11.0",
     "@typescript-eslint/parser": "5.11.0",
-    "@types/node": "17.0.17",
     "eslint": "8.8.0",
+    "eslint-plugin-jest": "26.1.0",
+    "husky": "7.0.4",
+    "jest": "27.5.1",
+    "jest-runner-eslint": "1.0.0",
     "release-it": "14.12.4",
+    "ts-jest": "27.1.3",
     "ts-node": "10.5.0",
     "tsconfig-paths": "3.12.0",
     "typescript": "4.5.5"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }

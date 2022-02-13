@@ -1,3 +1,3 @@
-# demo-plugin
+# TinyHelpdesk Demo Plugin
 
-A simple plugin for Tiny Helpdesk
+A demo plugin for the TinyHelpdesk.
