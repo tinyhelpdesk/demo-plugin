@@ -1,6 +1,6 @@
 {
   "name": "@tinyhelpdesk/demo-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Demo plugin for the TinyHelpdesk",
   "author": {
     "author": "Björn Torben Hahn",
